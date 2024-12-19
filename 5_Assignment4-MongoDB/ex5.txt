@@ -1,0 +1,26 @@
+switched to db Ass4
+{
+	"cuisine" : "Chinese",
+	"topRestaurants" : [
+		{
+			"restaurant_id" : "40358429",
+			"avgScore" : 27.6
+		},
+		{
+			"restaurant_id" : "40584813",
+			"avgScore" : 26.5
+		},
+		{
+			"restaurant_id" : "40392721",
+			"avgScore" : 26
+		},
+		{
+			"restaurant_id" : "40548766",
+			"avgScore" : 23.857142857142858
+		},
+		{
+			"restaurant_id" : "40826684",
+			"avgScore" : 22.833333333333332
+		}
+	]
+}

@@ -1,0 +1,15 @@
+switched to db Ass4
+{
+	"name" : "Bella Napoli",
+	"address" : {
+		"building" : "130",
+		"coord" : [
+			-73.984758,
+			40.7457939
+		],
+		"street" : "Madison Avenue",
+		"zipcode" : "10016"
+	},
+	"cuisine" : "Pizza/Italian",
+	"avgScore" : 38.6
+}

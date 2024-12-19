@@ -1,0 +1,30 @@
+use Ass4;
+
+// Use Mongo shell  or Mongo Compass commands to answer following questions in
+// restarurants.json from MongoDB Lab Exercise (Week 12):
+// a.	List id and address of
+    // borough: Manhattan,
+	// cuisine: American and
+	// name : westside restaurant". 
+db.restaurants.find({"borough": {$regex: /Manhattan/i},
+					 "cuisine": {$regex: /American/i},
+                     "name" :  {$regex: /Westside Restaurant/i}
+					},
+					{"_id":1,"address":1, "cuisine":1, "name":1, "borough":1}
+					).pretty();
+
+// b.	List address and Grades
+ // for
+ // street Broadway
+ // borough Manhattan
+ // cousine America and
+ // Name Toast.
+//  
+db.restaurants.find({"address.street": {$regex: /broadway/i},
+					 "borough": {$regex: /manhattan/i},
+					 "cuisine": {$regex: /american/i},
+                     "name" :  {$regex: /toast/i}
+					},
+					{"_id":0, "address":1, "grades":1, "cuisine":1, "name":1, "borough":1}
+					).pretty();
+

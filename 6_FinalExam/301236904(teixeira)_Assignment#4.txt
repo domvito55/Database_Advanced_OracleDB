@@ -1,0 +1,113 @@
+use Ass4;
+
+// 1. Find all listings with listing_url, name, address, host_verification and
+// size of host_verification array in the listingsAndReviews collection that
+// have a host with at least 3 verifications and collection that have a host
+// with a picture url.
+
+db.listingsAndReviews.aggregate([
+  {
+	$match: {
+	  "host.host_verifications": { $exists: true },
+	  "host.host_picture_url": { $exists: true, $ne: null },
+	  $expr: { $gte: [{ $size: "$host.host_verifications" }, 3] }
+	}
+  },
+  {
+	$project: {
+	  "listing_url": 1,
+	  "name": 1,
+	  "address": 1,
+	  "host.host_verifications": 1,
+	  "host_verifications_count": { $size: "$host.host_verifications" }
+	}
+  }
+]).pretty();
+
+//-------------------------------------------------------------------
+
+// 2. 
+//-------------------------------------------------------------------
+
+// 3. Write a MongoDB query to find the name, address, and cuisine of the
+// restaurants that have a cuisine that contains the word 'Pizza' and achieved
+// highest average score
+
+db.restaurants.aggregate([
+  { $match: { cuisine: { $regex: /Pizza/i } } },
+  {$unwind: "$grades"},
+  {$group: {
+         _id: "$restaurant_id",
+		name: { $first: "$name" },
+		address: { $first: "$address" },
+		cuisine: { $first: "$cuisine" },
+    avgScore: {$avg: "$grades.score"}
+  }},
+  {
+    $group: {
+      _id: "$avgScore",
+      restaurants: { $push: { _id: "$_id", name: "$name", address: "$address", cuisine: "$cuisine", avgScore: "$avgScore" } },
+    },
+  },
+  { $sort: { _id: -1 } },
+  { $limit: 1 },
+  { $unwind: "$restaurants" },
+  { $replaceRoot: { newRoot: "$restaurants" } },
+  {$project: {_id: 0, name: 1, address: 1, cuisine: 1, avgScore: 1}}
+]).pretty()
+
+//-------------------------------------------------------------------
+
+// 4. Write a MongoDB query to find the restaurants that has highest number of
+// "A" grades for the cuisine "Turkish".
+
+db.restaurants.aggregate([
+  { $unwind: "$grades" },
+  { $match: { "grades.grade": "A", cuisine: "Turkish" } },
+  {
+    $group: {
+      _id: "$restaurant_id",
+      name: { $first: "$name" },
+      cuisine: { $first: "$cuisine" },
+      gradeCount: { $sum: 1 }
+    }
+  },
+  { $sort: { gradeCount: -1 } },
+  {
+    $group: {
+      _id: "$gradeCount",
+      restaurants: { $push: "$$ROOT" }
+    }
+  },
+  { $sort: { _id: -1 } },
+  { $limit: 1 },
+  { $unwind: "$restaurants" },
+  { $replaceRoot: { newRoot: "$restaurants" } }
+]).pretty()
+//-------------------------------------------------------------------
+
+//5. Write a MongoDB query to find the top 5 restaurants with the highest
+// average score for Chinese restaurants, along with their average scores. 
+db.restaurants.aggregate([
+  { $match: { cuisine: "Chinese" } }, // Add the $match stage to filter by cuisine
+  {$unwind: "$grades"},
+  {$group: {
+    _id: {cuisine: "$cuisine", restaurant_id: "$restaurant_id"},
+avgScore: {$avg: "$grades.score"}
+  }},
+  {$sort: {
+    "_id.cuisine": 1,
+avgScore: -1
+  }},
+  {$group: {
+    _id: "$_id.cuisine",
+topRestaurants: {$push: {restaurant_id: "$_id.restaurant_id", avgScore: "$avgScore"}}
+  }},
+  {$project: {
+    _id: 0,
+cuisine: "$_id",
+topRestaurants: {$slice: ["$topRestaurants", 5]}
+  }}
+]).pretty()
+//-------------------------------------------------------------------
+

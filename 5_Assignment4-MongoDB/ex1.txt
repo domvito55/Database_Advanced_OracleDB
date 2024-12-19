@@ -1,0 +1,615 @@
+switched to db Ass4
+{
+	"_id" : "10009999",
+	"listing_url" : "https://www.airbnb.com/rooms/10009999",
+	"name" : "Horto flat with small garden",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"facebook"
+		]
+	},
+	"address" : {
+		"street" : "Rio de Janeiro, Rio de Janeiro, Brazil",
+		"suburb" : "Jardim Botânico",
+		"government_area" : "Jardim Botânico",
+		"market" : "Rio De Janeiro",
+		"country" : "Brazil",
+		"country_code" : "BR",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-43.23074991429229,
+				-22.966253551739655
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 3
+}
+{
+	"_id" : "10021707",
+	"listing_url" : "https://www.airbnb.com/rooms/10021707",
+	"name" : "Private Room in Bushwick",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews",
+			"kba"
+		]
+	},
+	"address" : {
+		"street" : "Brooklyn, NY, United States",
+		"suburb" : "Brooklyn",
+		"government_area" : "Bushwick",
+		"market" : "New York",
+		"country" : "United States",
+		"country_code" : "US",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-73.93615,
+				40.69791
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 4
+}
+{
+	"_id" : "10030955",
+	"listing_url" : "https://www.airbnb.com/rooms/10030955",
+	"name" : "Apt Linda Vista Lagoa - Rio",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"jumio",
+			"government_id"
+		]
+	},
+	"address" : {
+		"street" : "Rio de Janeiro, Rio de Janeiro, Brazil",
+		"suburb" : "Lagoa",
+		"government_area" : "Lagoa",
+		"market" : "Rio De Janeiro",
+		"country" : "Brazil",
+		"country_code" : "BR",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-43.205047082633435,
+				-22.971950988341874
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 4
+}
+{
+	"_id" : "10057826",
+	"listing_url" : "https://www.airbnb.com/rooms/10057826",
+	"name" : "Deluxe Loft Suite",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"google",
+			"reviews",
+			"jumio",
+			"government_id"
+		]
+	},
+	"address" : {
+		"street" : "Brooklyn, NY, United States",
+		"suburb" : "Greenpoint",
+		"government_area" : "Greenpoint",
+		"market" : "New York",
+		"country" : "United States",
+		"country_code" : "US",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-73.94472,
+				40.72778
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 6
+}
+{
+	"_id" : "10038496",
+	"listing_url" : "https://www.airbnb.com/rooms/10038496",
+	"name" : "Copacabana Apartment Posto 6",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews",
+			"jumio",
+			"government_id"
+		]
+	},
+	"address" : {
+		"street" : "Rio de Janeiro, Rio de Janeiro, Brazil",
+		"suburb" : "Copacabana",
+		"government_area" : "Copacabana",
+		"market" : "Rio De Janeiro",
+		"country" : "Brazil",
+		"country_code" : "BR",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-43.190849194463404,
+				-22.984339360067814
+			],
+			"is_location_exact" : false
+		}
+	},
+	"host_verifications_count" : 5
+}
+{
+	"_id" : "10059872",
+	"listing_url" : "https://www.airbnb.com/rooms/10059872",
+	"name" : "Soho Cozy, Spacious and Convenient",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews",
+			"jumio",
+			"government_id"
+		]
+	},
+	"address" : {
+		"street" : "Hong Kong, Hong Kong Island, Hong Kong",
+		"suburb" : "Central & Western District",
+		"government_area" : "Central & Western",
+		"market" : "Hong Kong",
+		"country" : "Hong Kong",
+		"country_code" : "HK",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				114.15027,
+				22.28158
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 5
+}
+{
+	"_id" : "10066928",
+	"listing_url" : "https://www.airbnb.com/rooms/10066928",
+	"name" : "3 chambres au coeur du Plateau",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews",
+			"work_email"
+		]
+	},
+	"address" : {
+		"street" : "Montréal, Québec, Canada",
+		"suburb" : "Le Plateau-Mont-Royal",
+		"government_area" : "Le Plateau-Mont-Royal",
+		"market" : "Montreal",
+		"country" : "Canada",
+		"country_code" : "CA",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-73.57383,
+				45.52233
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 4
+}
+{
+	"_id" : "1003530",
+	"listing_url" : "https://www.airbnb.com/rooms/1003530",
+	"name" : "New York City - Upper West Side Apt",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews",
+			"jumio",
+			"offline_government_id",
+			"government_id"
+		]
+	},
+	"address" : {
+		"street" : "New York, NY, United States",
+		"suburb" : "Manhattan",
+		"government_area" : "Upper West Side",
+		"market" : "New York",
+		"country" : "United States",
+		"country_code" : "US",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-73.96523,
+				40.79962
+			],
+			"is_location_exact" : false
+		}
+	},
+	"host_verifications_count" : 6
+}
+{
+	"_id" : "10069642",
+	"listing_url" : "https://www.airbnb.com/rooms/10069642",
+	"name" : "Ótimo Apto proximo Parque Olimpico",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"jumio",
+			"government_id"
+		]
+	},
+	"address" : {
+		"street" : "Rio de Janeiro, Rio de Janeiro, Brazil",
+		"suburb" : "Recreio dos Bandeirantes",
+		"government_area" : "Recreio dos Bandeirantes",
+		"market" : "Rio De Janeiro",
+		"country" : "Brazil",
+		"country_code" : "BR",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-43.4311123147628,
+				-23.00035792660916
+			],
+			"is_location_exact" : false
+		}
+	},
+	"host_verifications_count" : 4
+}
+{
+	"_id" : "10082307",
+	"listing_url" : "https://www.airbnb.com/rooms/10082307",
+	"name" : "Double Room en-suite (307)",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"google",
+			"reviews"
+		]
+	},
+	"address" : {
+		"street" : "Hong Kong, Kowloon, Hong Kong",
+		"suburb" : "Yau Tsim Mong",
+		"government_area" : "Yau Tsim Mong",
+		"market" : "Hong Kong",
+		"country" : "Hong Kong",
+		"country_code" : "HK",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				114.17158,
+				22.30469
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 4
+}
+{
+	"_id" : "10006546",
+	"listing_url" : "https://www.airbnb.com/rooms/10006546",
+	"name" : "Ribeira Charming Duplex",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews",
+			"jumio",
+			"offline_government_id",
+			"government_id"
+		]
+	},
+	"address" : {
+		"street" : "Porto, Porto, Portugal",
+		"suburb" : "",
+		"government_area" : "Cedofeita, Ildefonso, Sé, Miragaia, Nicolau, Vitória",
+		"market" : "Porto",
+		"country" : "Portugal",
+		"country_code" : "PT",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-8.61308,
+				41.1413
+			],
+			"is_location_exact" : false
+		}
+	},
+	"host_verifications_count" : 6
+}
+{
+	"_id" : "1001265",
+	"listing_url" : "https://www.airbnb.com/rooms/1001265",
+	"name" : "Ocean View Waikiki Marina w/prkg",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews",
+			"kba"
+		]
+	},
+	"address" : {
+		"street" : "Honolulu, HI, United States",
+		"suburb" : "Oʻahu",
+		"government_area" : "Primary Urban Center",
+		"market" : "Oahu",
+		"country" : "United States",
+		"country_code" : "US",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-157.83919,
+				21.28634
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 4
+}
+{
+	"_id" : "10084023",
+	"listing_url" : "https://www.airbnb.com/rooms/10084023",
+	"name" : "City center private room with bed",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews",
+			"jumio",
+			"offline_government_id",
+			"government_id"
+		]
+	},
+	"address" : {
+		"street" : "Hong Kong , 九龍, Hong Kong",
+		"suburb" : "Sham Shui Po District",
+		"government_area" : "Sham Shui Po",
+		"market" : "Hong Kong",
+		"country" : "Hong Kong",
+		"country_code" : "HK",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				114.1669,
+				22.3314
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 6
+}
+{
+	"_id" : "10096773",
+	"listing_url" : "https://www.airbnb.com/rooms/10096773",
+	"name" : "Easy 1 Bedroom in Chelsea",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"facebook",
+			"reviews",
+			"kba"
+		]
+	},
+	"address" : {
+		"street" : "New York, NY, United States",
+		"suburb" : "Manhattan",
+		"government_area" : "Chelsea",
+		"market" : "New York",
+		"country" : "United States",
+		"country_code" : "US",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-74.00074,
+				40.74577
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 5
+}
+{
+	"_id" : "10092679",
+	"listing_url" : "https://www.airbnb.com/rooms/10092679",
+	"name" : "Cozy house at Beyoğlu",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews",
+			"jumio"
+		]
+	},
+	"address" : {
+		"street" : "Beyoğlu, İstanbul, Turkey",
+		"suburb" : "Beyoglu",
+		"government_area" : "Beyoglu",
+		"market" : "Istanbul",
+		"country" : "Turkey",
+		"country_code" : "TR",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				28.95825,
+				41.03777
+			],
+			"is_location_exact" : false
+		}
+	},
+	"host_verifications_count" : 4
+}
+{
+	"_id" : "10109896",
+	"listing_url" : "https://www.airbnb.com/rooms/10109896",
+	"name" : "THE Place to See Sydney's FIREWORKS",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews",
+			"jumio",
+			"offline_government_id",
+			"government_id"
+		]
+	},
+	"address" : {
+		"street" : "Rozelle, NSW, Australia",
+		"suburb" : "Lilyfield/Rozelle",
+		"government_area" : "Leichhardt",
+		"market" : "Sydney",
+		"country" : "Australia",
+		"country_code" : "AU",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				151.17956,
+				-33.86296
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 6
+}
+{
+	"_id" : "10112159",
+	"listing_url" : "https://www.airbnb.com/rooms/10112159",
+	"name" : "Downtown Oporto Inn (room cleaning)",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews",
+			"jumio",
+			"government_id"
+		]
+	},
+	"address" : {
+		"street" : "Porto, Porto, Portugal",
+		"suburb" : "",
+		"government_area" : "Cedofeita, Ildefonso, Sé, Miragaia, Nicolau, Vitória",
+		"market" : "Porto",
+		"country" : "Portugal",
+		"country_code" : "PT",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-8.60867,
+				41.1543
+			],
+			"is_location_exact" : false
+		}
+	},
+	"host_verifications_count" : 5
+}
+{
+	"_id" : "10115921",
+	"listing_url" : "https://www.airbnb.com/rooms/10115921",
+	"name" : "GOLF ROYAL RESİDENCE TAXİM(1+1):3",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews"
+		]
+	},
+	"address" : {
+		"street" : "Şişli, İstanbul, Turkey",
+		"suburb" : "Şişli",
+		"government_area" : "Sisli",
+		"market" : "Istanbul",
+		"country" : "Turkey",
+		"country_code" : "TR",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				28.98713,
+				41.04841
+			],
+			"is_location_exact" : false
+		}
+	},
+	"host_verifications_count" : 3
+}
+{
+	"_id" : "10116256",
+	"listing_url" : "https://www.airbnb.com/rooms/10116256",
+	"name" : "GOLF ROYAL RESIDENCE SUİTES(2+1)-2",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"reviews"
+		]
+	},
+	"address" : {
+		"street" : "Şişli, İstanbul, Turkey",
+		"suburb" : "Şişli",
+		"government_area" : "Sisli",
+		"market" : "Istanbul",
+		"country" : "Turkey",
+		"country_code" : "TR",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				28.98818,
+				41.04772
+			],
+			"is_location_exact" : false
+		}
+	},
+	"host_verifications_count" : 3
+}
+{
+	"_id" : "10051164",
+	"listing_url" : "https://www.airbnb.com/rooms/10051164",
+	"name" : "Catete's Colonial Big Hause Room B",
+	"host" : {
+		"host_verifications" : [
+			"email",
+			"phone",
+			"facebook",
+			"reviews",
+			"jumio",
+			"government_id"
+		]
+	},
+	"address" : {
+		"street" : "Rio de Janeiro, Rio de Janeiro, Brazil",
+		"suburb" : "Catete",
+		"government_area" : "Catete",
+		"market" : "Rio De Janeiro",
+		"country" : "Brazil",
+		"country_code" : "BR",
+		"location" : {
+			"type" : "Point",
+			"coordinates" : [
+				-43.18015675229857,
+				-22.92638234778768
+			],
+			"is_location_exact" : true
+		}
+	},
+	"host_verifications_count" : 6
+}
+Type "it" for more

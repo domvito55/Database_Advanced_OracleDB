@@ -1,0 +1,58 @@
+MongoDB shell version v5.0.20-rc1
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("08332e76-daa4-4f32-bf13-6b355ff1cd8f") }
+MongoDB server version: 5.0.20-rc1
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+switched to db Ass4
+{
+	"_id" : ObjectId("64d044e4fdb13a27b9cda0bd"),
+	"address" : {
+		"building" : "2020",
+		"coord" : [
+			-73.981751,
+			40.7763588
+		],
+		"street" : "Broadway",
+		"zipcode" : "10023"
+	},
+	"borough" : "Manhattan",
+	"cuisine" : "American ",
+	"name" : "Westside Restaurant"
+}
+{
+	"_id" : ObjectId("64da3a9acc8c7203620a179c"),
+	"address" : {
+		"building" : "2020",
+		"coord" : [
+			-73.981751,
+			40.7763588
+		],
+		"street" : "Broadway",
+		"zipcode" : "10023"
+	},
+	"borough" : "Manhattan",
+	"cuisine" : "American ",
+	"name" : "Westside Restaurant"
+}
+{
+	"_id" : ObjectId("64da5bc542b148d826586cab"),
+	"address" : {
+		"building" : "2020",
+		"coord" : [
+			-73.981751,
+			40.7763588
+		],
+		"street" : "Broadway",
+		"zipcode" : "10023"
+	},
+	"borough" : "Manhattan",
+	"cuisine" : "American ",
+	"name" : "Westside Restaurant"
+}
+bye

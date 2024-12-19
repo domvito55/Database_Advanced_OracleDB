@@ -1,0 +1,18 @@
+CARTID,QUANTITY,SHOPPERID,ORDERPLACED,SUBTOTAL,TOTAL,SHIPPING,TAX,DTCREATED,PROMO,SHIPFIRSTNAME,SHIPLASTNAME,SHIPADDRESS,SHIPCITY,SHIPSTATE,SHIPZIPCODE,SHIPPHONE,SHIPFAX,SHIPEMAIL,SHIPPROVINCE,SHIPCOUNTRY,BILLFIRSTNAME,BILLLASTNAME,BILLADDRESS,BILLCITY,BILLSTATE,BILLZIPCODE,BILLPHONE,BILLFAX,BILLEMAIL,BILLPROVINCE,BILLCOUNTRY,DTORDERED,CARDTYPE,CARDNUMBER,EXPMONTH,EXPYEAR,CARDNAME,SHIPBILL,SHIPFLAG
+SS_CartId_seq.nextval,1,3001,1,100,123.17,9,14.17,8/3/2023 11:30 PM,,John,Doe,21 Front St.,Scarborough,ON,A2H2E2,9014317701,,JohnD@aol.com,,,John,Doe,21 Front St.,Scarborough,ON,A2H2E2,9014317701,,JohnD@aol.com,,,8/3/2023 11:30 PM,V,************1234,12,2025,John Doe,N,N
+SS_CartId_seq.nextval,2,3002,1,250,300.58,16,34.58,8/3/2023 11:30 PM,,Maria,Somner,287 Walnut Drive,Calgary,AB,H3K4B2,7574216559,,MarS@infi.net,,,Maria,Somner,287 Walnut Drive,Calgary,AB,H3K4B2,7574216559,,MarS@infi.net,,,8/3/2023 11:30 PM,M,************5678,09,2026,Maria Somner,N,N
+SS_CartId_seq.nextval,1,3003,0,100,123.17,9,14.17,8/3/2023 11:30 PM,,Michael,Smith,123 Main St.,Vancouver,BC,V6C3K9,6049876543,,m.smith@example.com,,,Michael,Smith,123 Main St.,Vancouver,BC,V6C3K9,6049876543,,m.smith@example.com,,,8/3/2023 11:30 PM,A,************9876,06,2024,Michael Smith,N,N
+SS_CartId_seq.nextval,2,3004,1,120,148.03,11,17.03,8/3/2023 11:30 PM,,Emily,Johnson,456 Oak Ave.,Toronto,ON,M4B2R7,4167890123,,emily.j@example.com,,,Emily,Johnson,456 Oak Ave.,Toronto,ON,M4B2R7,4167890123,,emily.j@example.com,,,8/3/2023 11:30 PM,V,************2345,11,2025,Emily Johnson,N,N
+SS_CartId_seq.nextval,1,3005,0,40,51.98,6,5.98,8/3/2023 11:30 PM,,David,Lee,789 Elm St.,Montreal,QC,H1A3S6,5142345678,,davidl@example.com,,,David,Lee,789 Elm St.,Montreal,QC,H1A3S6,5142345678,,davidl@example.com,,,8/3/2023 11:30 PM,M,************4567,04,2023,David Lee,N,N
+SS_CartId_seq.nextval,1,3006,1,10000,11333.9,30,1303.9,8/3/2023 11:30 PM,,Sarah,Wilson,987 Pine Ave.,Ottawa,ON,K2P1Z8,6135432198,,s.wilson@example.com,,,Sarah,Wilson,987 Pine Ave.,Ottawa,ON,K2P1Z8,6135432198,,s.wilson@example.com,,,8/3/2023 11:30 PM,A,************7654,10,2023,Sarah Wilson,N,N
+SS_CartId_seq.nextval,1,3007,1,70,89.27,9,10.27,8/3/2023 11:30 PM,,Sophia,Martin,444 Cedar St.,Halifax,NS,B3J1R7,9026543210,,s.martin@example.com,,,Sophia,Martin,444 Cedar St.,Halifax,NS,B3J1R7,9026543210,,s.martin@example.com,,,8/3/2023 11:30 PM,V,************3210,02,2026,Sophia Martin,N,N
+SS_CartId_seq.nextval,1,3008,0,40,51.98,6,5.98,8/3/2023 11:30 PM,,Andrew,Anderson,111 Cherry St.,Edmonton,AB,T5J2S4,7807654321,,a.anderson@example.com,,,Andrew,Anderson,111 Cherry St.,Edmonton,AB,T5J2S4,7807654321,,a.anderson@example.com,,,8/3/2023 11:30 PM,M,************5432,07,2023,Andrew Anderson,N,N
+SS_CartId_seq.nextval,1,3009,1,200,240.69,13,27.69,8/3/2023 11:30 PM,,Olivia,Brown,222 Maple Ave.,Winnipeg,MB,R3B1P7,2048765432,,olivia.b@example.com,,,Olivia,Brown,222 Maple Ave.,Winnipeg,MB,R3B1P7,2048765432,,olivia.b@example.com,,,8/3/2023 11:30 PM,V,************8765,08,2025,Olivia Brown,N,N
+SS_CartId_seq.nextval,1,3006,0,10,18.08,6,2.08,8/3/2023 11:30 PM,,Sarah,Wilson,987 Pine Ave.,Ottawa,ON,K2P1Z8,6135432198,,s.wilson@example.com,,,Sarah,Wilson,987 Pine Ave.,Ottawa,ON,K2P1Z8,6135432198,,s.wilson@example.com,,,8/3/2023 11:30 PM,A,************7654,10,2023,Sarah Wilson,N,N
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

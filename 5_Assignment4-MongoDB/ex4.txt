@@ -1,0 +1,13 @@
+switched to db Ass4
+{
+	"_id" : "40559546",
+	"name" : "Pasha Turkish Restaurant",
+	"cuisine" : "Turkish",
+	"gradeCount" : 5
+}
+{
+	"_id" : "40563596",
+	"name" : "Sahara Restaurant",
+	"cuisine" : "Turkish",
+	"gradeCount" : 5
+}

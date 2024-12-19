@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Spot Sales</title>
+        <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css' />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/cart">Cart</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <h1>Advertisement List</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Advertisement Title</th>
+                <!-- Add more headers for other columns if needed -->
+              </tr>
+            </thead>
+            <tbody>
+              <% advertisements.forEach(advertisement => { %>
+                <tr>
+                  <td><%= advertisement.ID %></td>
+                  <td><%= advertisement.ADVERTISEMENTTITLE %></td>
+                  <!-- Add more cells for other columns if needed -->
+                </tr>
+              <% }) %>
+            </tbody>
+          </table>
+        <script src='/bootstrap/dist/js/bootstrap.min.js'></script>
+    </body>
+</html>
